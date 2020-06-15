@@ -4,7 +4,6 @@ from copy import deepcopy
 from timeit import default_timer as timer
 import random
 
-
 def czytaj(sciezka):
     data = []
     parametry = []
@@ -17,7 +16,6 @@ def czytaj(sciezka):
     parametry.append(n)
     parametry.append(m)
     return parametry, data
-
 
 parametry, data = czytaj('data001.txt')
 S = []
