@@ -7,9 +7,9 @@ def czytaj(filepath):
 
 
 def sortujR(data):
-    order_by_access_time = data.copy()
-    order_by_access_time.sort(key=lambda x: x[0])
-    return order_by_access_time
+    posortowane = data.copy()
+    posortowane.sort(key=lambda x: x[0])
+    return posortowane
 
 
 def find_maxq_and_p(data):
