@@ -2,6 +2,8 @@ from copy import deepcopy
 import sys
 import random
 import math
+
+
 def czytaj(sciezka):
     data = []
     parametry = []
@@ -253,15 +255,8 @@ def NEH_PLUS(data, choice):
     return -1
 
 
-nazwa, parametry, data = czytaj('ta021.txt')
+nazwa, parametry, data = czytaj('ta022.txt')
 N = deepcopy(data)
 print(calculate(NEH(data)))
-print(calculate(NEH_PLUS(data, 1)))
-
-
-
-
-
-
-
+print(calculate(NEH_PLUS(data, 1))) # wybranie select
 
