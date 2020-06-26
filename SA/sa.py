@@ -18,7 +18,6 @@ def czytaj(sciezka):
     parametry.append(m)
     return nazwa, parametry, data
 
-
 W = []
 S = []
 C = []
